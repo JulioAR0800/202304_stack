@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block titulo %}Bienvenidos al Sistema{% endblock %}
+
+{% block contenido %}
+{% include 'menu.html'%}
+<div class="card text-bg-primary mb-3">
+    <div class="card-header">Bienvenido, {{ nombre }}!</div>   
+</div>
+
+
+
+{% endblock %}
